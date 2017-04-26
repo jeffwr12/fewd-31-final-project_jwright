@@ -1,0 +1,177 @@
+*{margin:0 auto;}
+
+html {background-image:
+
+}
+
+body {width:1200px;height:3000px;
+	margin:0 auto;
+	background-image: url();
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position: top;
+
+}
+
+.navbar {width:1200px; 
+	font-family: 'Economica', sans-serif;
+	height:50px;
+	background-color:#0D2531  ;
+	padding-top:10px;
+	opacity:.4;
+
+}
+
+ul {list-style-type: none;
+	margin:0px;padding:0px;
+	color:white;
+}
+
+ul li {float:left;
+	width:200px;font-size:16px;font-weight:100;
+	height: 50px; 
+	background-color:none;
+	line-height:50px;
+	text-align:center;
+	margin-right:2px;
+	margin-left:10px;
+	letter-spacing:8px;
+}
+
+ul li a {text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+
+ul li a:hover {color:#2F96C4  ;
+	
+}
+ul li ul li {line-height:;
+	display:none;
+	font-size:14px;
+	letter-spacing: 4px;
+}
+
+ul li:hover ul li {
+	display:block;
+	background-color:#0B4C68  ;
+
+
+}
+
+
+header {
+	width:1200px;
+	height:360px;
+	text-align:center;
+	background-color:#58A1C4;
+	padding-top:40px;
+}
+.iconart {opacity:.99999;shadow
+
+
+
+}
+p {font-family:'Raleway', sans-serif;
+	font-weight:thin;
+	padding-top:30px;
+	padding-left:00px;
+	font-size: 18px;
+	width:850px;
+	color:white;
+	letter-spacing:1px;
+	line-height:29px;
+	opacity:.5;
+}
+
+.biography {
+	width:1200px; height:350px;
+	border-top: .5px dotted black;
+background-image: url(../images/bio1.jpg);
+background-repeat:no-repeat;
+}
+
+h2 {font-family: 'Teko', sans-serif;
+font-weight:100;
+font-size:24px;
+letter-spacing:4px;
+line-height:25px;
+color:#214E5D;
+padding-left:420px;
+padding-top:104px;
+
+
+}
+.biography p {font-family:'Open+Sans', sans-serif;
+	font-weight:100;
+	padding-top:10px;
+	padding-left:295px;
+	font-size: 14px;
+	width:650px;
+	color:black;
+	letter-spacing:0px;
+	line-height:18px
+
+}
+
+.biography1 {
+	width:1200px; height:350px;
+	border-top: .5px dotted black;
+	background-image: url(../images/bio2.jpg);
+	background-repeat:no-repeat;
+}
+.biography1 p {font-family:'Open+Sans', sans-serif;
+	font-weight:100;
+	padding-top:10px;
+	padding-right:360px;
+	font-size: 14px;
+	width:650px;
+	color:black;
+	letter-spacing:0px;
+	line-height:18px
+
+
+
+
+
+}
+
+
+
+.biography2 {
+	width:1200px; height:400px;
+	
+	border-top: .5px dotted black;
+}
+
+.biography3 {
+	width:1200px; height:400px;
+	
+	border-top: .5px dotted black;
+}
+
+.biography4 {
+	width:1200px; height:400px;
+	
+	border-top: .5px dotted black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+*{margin:0 auto;}
+
+html {background-color:#4e687e;}
+
+}
+
+body {width:1200px;height:3000px;
+	margin:0 auto;
+	
+}
+
+.navbar {width:1200px; 
+	font-family: 'Economica', sans-serif;
+	height:50px;
+	background-color:#0D2531  ;
+	padding-top:10px;
+	opacity:.4;
+
+}
+
+ul {list-style-type: none;
+	margin:0px;padding:0px;
+	color:white;
+}
+
+ul li {float:left;
+	width:200px;font-size:16px;font-weight:100;
+	height: 50px; 
+	background-color:none;
+	line-height:50px;
+	text-align:center;
+	margin-right:2px;
+	margin-left:10px;
+	letter-spacing:8px;
+}
+
+ul li a {text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+
+ul li a:hover {color:#2F96C4  ;
+	
+}
+ul li ul li {line-height:;
+	display:none;
+	font-size:14px;
+	letter-spacing: 4px;
+}
+
+ul li:hover ul li {
+	display:block;
+	background-color:#0B4C68  ;
+
+
+}
+
+
+.header {
+	background-image: url(../images/construction.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:1200px;
+	height:440px;
+	text-align:left;
+	
+}
+
+p {font-family:'Raleway', sans-serif;
+	font-weight:thin;
+	padding-top:230px;
+	padding-left:450px;
+	font-size: 14px;
+	width:60+
+	0px;
+	color:white;
+	letter-spacing:1px;
+	line-height:29px;
+	
+}
+
+
+
+.construction1 {
+	float:left;
+	background-color:red;
+	width:400px;
+	height:300px;
+
+}
+
+.construction2 {
+	float:left;
+	background-color:yellow;
+	width:400px;
+	height:300px;
+
+
+}
+
+.construction3 {
+	float:left;
+	background-color:green;
+	width:400px;
+	height:300px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
