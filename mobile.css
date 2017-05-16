@@ -1,0 +1,120 @@
+@media(min-width:320px){
+/*small portrait screen*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+
+* {margin:0 auto;}
+
+html {background-color:#4e687e;}
+
+body {width:320px;
+  margin:0 auto;
+  background-image: url('images/afm_main.jpg');
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-position: top;
+
+}
+
+.navbar {width:100%; 
+  font-family: 'Economica', sans-serif;
+  height:30px;
+  background-color:#0D2531  ;
+  padding-top:10px;
+  opacity:.6;
+   display:none;
+}
+}
+.circletype {width:200px;
+  margin-left:140px;
+  display:block;
+  opacity:.999;
+  margin-top:10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
