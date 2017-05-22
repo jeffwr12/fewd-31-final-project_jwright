@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @media(min-width:319px) and (max-width:680px) {
+=======
+@media(min-width:320px){
+>>>>>>> origin/master
 /*small portrait screen*/
 
 * {
@@ -41,6 +45,7 @@
 
 * {margin:0 auto;}
 
+<<<<<<< HEAD
 html {background-color:#88A4C1;width:100%;margin:0 auto;  }
 
 body {width:100%;
@@ -91,10 +96,38 @@ ul li ul li {
 ul li:hover ul li {
   display:none;
   
+=======
+html {background-color:#4e687e;}
+
+body {width:320px;
+  margin:0 auto;
+  background-image: url('images/afm_main.jpg');
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-position: top;
+
+}
+
+.navbar {width:100%; 
+  font-family: 'Economica', sans-serif;
+  height:30px;
+  background-color:#0D2531  ;
+  padding-top:10px;
+  opacity:.6;
+   display:none;
+}
+}
+.circletype {width:200px;
+  margin-left:140px;
+  display:block;
+  opacity:.999;
+  margin-top:10px;
+>>>>>>> origin/master
 
 
 }
 
+<<<<<<< HEAD
 .circletype {width:250px;
   margin-left:35px;
   display:block;
@@ -366,3 +399,53 @@ footer {height:230px;background-image: url("images/round4.gif");;
 
 
 
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+>>>>>>> origin/master

@@ -3,6 +3,8 @@
   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
   box-sizing: border-box; /* IE */
 }
+<<<<<<< HEAD
+=======
 
 /* Clear fix hack */
 .clearfix:after {
@@ -33,6 +35,47 @@
 /*******************************************/
 
 * {margin:0 auto;}
+>>>>>>> origin/master
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+<<<<<<< HEAD
+.clear {
+  clear: both;
+}
+=======
+body {width:1200px;
+	margin:0 auto;
+	background-image: url('images/afm_main.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position: top;
+>>>>>>> origin/master
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+<<<<<<< HEAD
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+* {margin:0 auto;}
 
 html {background-color:#4e687e;}
 
@@ -51,6 +94,14 @@ body {width:1200px;
 		background-color:#0D2531  ;
 		padding-top:10px;
 		opacity:.6;
+=======
+.navbar {width:100%; 
+	font-family: 'Economica', sans-serif;
+	height:50px;
+	background-color:#0D2531  ;
+	padding-top:10px;
+	opacity:.6;
+>>>>>>> origin/master
 
 }
 
@@ -80,10 +131,17 @@ ul li a:hover {color:#2F96C4  ;
 	
 }
 ul li ul li {
+<<<<<<< HEAD
 		display:none;
 		font-size:14px;
 		letter-spacing: 4px;
 	}
+=======
+	display:none;
+	font-size:14px;
+	letter-spacing: 4px;
+}
+>>>>>>> origin/master
 
 ul li:hover ul li {
 		display:block;
@@ -92,16 +150,25 @@ ul li:hover ul li {
 
 }
 .circletype {width:315px;
+<<<<<<< HEAD
 		margin-left:840px;
 		display:block;
 		padding-top:0px;
 		opacity:.7;
 		margin-top:60px;
+=======
+	margin-left:840px;
+	display:block;
+	padding-top:0px;
+	opacity:.999;
+	margin-top:60px;
+>>>>>>> origin/master
 
 
 }
 
 .h1b {font-family:'Economica', sans-serif;
+<<<<<<< HEAD
 		font-size:19px;
 		text-align:center;
 		color:#0E284D;
@@ -117,13 +184,35 @@ ul li:hover ul li {
 		opacity:.8; 
 		/*transform: rotate(0deg);
 		opacity:.999;/*text-shadow: 1px 1px 2px black;*/
+=======
+
+	font-size:19px;
+	text-align:center;
+	color:#0E284D;
+	font-weight:200;
+	width:220px;
+	letter-spacing: 3px;
+	margin-top:65px;
+	margin-left:881px;
+	padding: 14px 0px 14px 0px;
+	float:left;
+	line-height:22px;
+	text-transform: uppercase;
+	opacity:.8; 
+	/*transform: rotate(0deg);
+	opacity:.999;/*text-shadow: 1px 1px 2px black;*/
+>>>>>>> origin/master
 }
 
 
 .tweet { width:30px;float:right;
 		display:block;
 		margin-top:36px;
+<<<<<<< HEAD
 		margin-right:135px;
+=======
+		margin-right:130px;
+>>>>>>> origin/master
 		margin-left:14px;            
 		opacity:.6;
 		border-radius:50%;
@@ -192,7 +281,11 @@ ul li:hover ul li {
 }
 
 
+<<<<<<< HEAD
 .maparea {width:100%;
+=======
+.maparea {width:100%; 
+>>>>>>> origin/master
 	height:500px;
 	float:left;
 	background-image: url("images/map-afm-copy.gif");   /*where is it*/
@@ -216,7 +309,11 @@ h2 span {font-size:20px;
 	line-height:50px;
 	color:#9DBBC8;
 	letter-spacing:25.7px; 
+<<<<<<< HEAD
 	border-bottom: 0.5px solid #9DBBC8;
+=======
+	border-bottom: 0.5px solid #9DBBC8 ;
+>>>>>>> origin/master
 
 }
 
@@ -256,11 +353,19 @@ h2 span {font-size:20px;
 }
 
 .tributes {width:100%;
+<<<<<<< HEAD
 	height:485px;margin-top:400px;
 	background-image: url("images/salute8.jpg");
 	background-size: 100%;float:left;
 	background-repeat:no-repeat;
 	background-position:bottom;
+=======
+	height:485px;
+	background-image: url("images/salute8.jpg");
+	background-size: 100%;float:left;
+	background-repeat:no-repeat;
+	background-position:center;
+>>>>>>> origin/master
 	padding-top:85px;
 
 }
@@ -293,13 +398,21 @@ h2 span {font-size:20px;
 }
 	
 .section1 {width:1200px;
+<<<<<<< HEAD
 	height:432px;
+=======
+	height:472px;
+>>>>>>> origin/master
 	float:left;
 	background-color:#CBD4D8;
 	background-image: url("images/night2.jpg");
 	background-size: 110%;
 	background-repeat:no-repeat;
+<<<<<<< HEAD
 	background-position:bottom;
+=======
+	background-position:top;
+>>>>>>> origin/master
 }
 .section1 p {color: white;
 	font-family:'Open+Sans', sans-serif;
@@ -314,6 +427,7 @@ h2 span {font-size:20px;
 	margin-top:220px;
 	opacity:.6;
 
+<<<<<<< HEAD
 }
 
 .button3 {width:170px;
@@ -324,6 +438,11 @@ h2 span {font-size:20px;
 	border-style:solid;
 	border-width:.5px;
 	border-color:#7DACCF ;
+=======
+.button3 {width:170px;height:40px;background-color:white ;
+	margin-left:900px; margin-top:380px;border-style:solid;
+	border-width:.5px;border-color:#7DACCF ;
+>>>>>>> origin/master
 
 }
 .button3 h3 {font-family:'Teko', sans-serif;
@@ -344,10 +463,17 @@ h2 span {font-size:20px;
 
 }
 	
+<<<<<<< HEAD
 .button4 {width:170px;
 	height:40px;
 	background-color:#192E4B ;
 	margin-left:900px; 
+=======
+.button4 {width:170px;height:40px;
+	background-color:#192E4B ;
+	margin-left:900px; 
+	margin-top:340px;
+>>>>>>> origin/master
 	border-style:solid;
 	border-width:.5px;
 	border-color:#7DACCF ;
@@ -355,6 +481,7 @@ h2 span {font-size:20px;
 }
 
 .button4 h3 {font-family:'Teko', sans-serif;
+<<<<<<< HEAD
 	font-size:20px;
 	font-weight:100;
 	opacity:.5;
@@ -362,6 +489,12 @@ h2 span {font-size:20px;
 	letter-spacing:3px;
 	margin-left:25px;
 	padding-top:9px;
+=======
+	font-size:20px;font-weight:100;opacity:.5;
+	color:white;
+	letter-spacing:3px;
+	margin-left:25px;padding-top:9px;
+>>>>>>> origin/master
 }
 
 .button4 a {text-decoration: none;
@@ -369,6 +502,11 @@ h2 span {font-size:20px;
 }
 
 .button4:hover {background-color:#58A1C4;
+<<<<<<< HEAD
+=======
+
+}
+>>>>>>> origin/master
 
 }
 
@@ -390,9 +528,15 @@ footer {height:250px;background-image: url("images/round4.gif");;
 	background-size:8%;
 	background-position:center;
 	clear:both;
+<<<<<<< HEAD
 	width:1200px;
 	background-color:#192E4B  ;
 	text-align:center
+=======
+	max-width:1200px;
+	background-color:#192E4B  ;
+	
+>>>>>>> origin/master
 
 }
 
