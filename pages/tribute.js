@@ -14,11 +14,7 @@ $(document).ready(function() {
   var airman7Description = 'Rodriguez, scored the first two air-air hits of his career in the Gulf War. His first hit occurred when he and his wingman came across two Iraqi MiG-29 Fulcrums. The two F-15s quickly locked up the MiG-29s, which turned to avoid them. However, an AWACS then reported two more MiG-29s coming in fast a mere 13 miles away. The two F-15s and two MiG-29s charged straight at each other. At the same time, the second MiG-29 locked up Rodriguez, who then quickly executed a dive down to the deck to avoid the radar lock and nearly collided with the AIM7 Sparrow fired by his wingman which destroyed the lead MiG.';
   var airman8Description = 'Robert Duke Cunningham was born December 8, 1941, in Los Angeles, California. After earning his bachelors degree in 1964 and his masters in education in 1965 from the University of Missouri, Cunningham began his career as an educator and a coach at Hinsdale (Ill.) High School. As a swimming coach, Duke trained two athletes to Olympic gold and silver medals.Cunningham became one of the most highly decorated U.S. Navy pilots in the Vietnam War. The first fighter ace of the war, he received the Navy Cross, two Silver Stars, fifteen Air Medals, and the Purple Heart.';
  
-<<<<<<< HEAD
   var airman9Description = 'Preddy initially served in the Southwest Pacific Theater, flying P-40s with the 9th Pursuit Squadron, 49th Pursuit Group, which provided air defense against Japanese aircraft attacking Darwin, Australia. Preddy claimed two Japanese aircraft damaged over Darwin. He was hospitalized after a collision with another P-40. After his recovery, Preddy was reassigned to the 352nd Fighter Group in the European Theater, flying P-51s. The group flew out of RAF Bodney, England and Asch Airfield, Belgium. On August 6, 1944, Preddy claimed six German Luftwaffe fighters in a single sortie.';
-=======
-  var airman9Description = 'The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria (collectively known as the strawberries). It is cultivated worldwide for its fruit. The fruit (which is not a botanical berry, but an aggregate accessory fruit) is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as preserves, fruit juice, pies, ice creams, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in many products like lip gloss, candy, hand sanitizers, perfume, and many others.';
->>>>>>> origin/master
 
 
  function removeActive() {
@@ -30,11 +26,8 @@ $(document).ready(function() {
     removeActive();
     $(this).addClass('active');
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> origin/master
     $('#title').html('Col. James H. Doolittle ');
     $('#description').html(airman1Description);
   });
