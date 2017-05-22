@@ -1,34 +1,63 @@
-*{margin:0 auto;}
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
 
-html {background-image:
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+
+* {margin:0 auto;}
+
+html {background-color:#6987A3  ;
 
 }
 
-body {width:1200px;height:3000px;
+body {width:1200px;height:1000px;
 	margin:0 auto;
-	background-image: url();
-	background-repeat:no-repeat;
-	background-size:100%;
-	background-position: top;
-
+	
 }
 
 .navbar {width:1200px; 
 	font-family: 'Economica', sans-serif;
 	height:50px;
-	background-color:#0D2531  ;
+	background-color:#0E2945;
 	padding-top:10px;
-	opacity:.4;
+	opacity:.9;
 
 }
 
 ul {list-style-type: none;
-	margin:0px;padding:0px;
-	color:white;
+	color:#4F7DAA;
 }
 
 ul li {float:left;
-	width:200px;font-size:16px;font-weight:100;
+	width:200px;
+	font-size:16px;
+	font-weight:100;
 	height: 50px; 
 	background-color:none;
 	line-height:50px;
@@ -39,7 +68,7 @@ ul li {float:left;
 }
 
 ul li a {text-decoration:none;
-	color:white;
+	color:#4F7DAA;
 	display:block;
 	
 }
@@ -47,7 +76,7 @@ ul li a {text-decoration:none;
 ul li a:hover {color:#2F96C4  ;
 	
 }
-ul li ul li {line-height:;
+ul li ul li {
 	display:none;
 	font-size:14px;
 	letter-spacing: 4px;
@@ -55,7 +84,7 @@ ul li ul li {line-height:;
 
 ul li:hover ul li {
 	display:block;
-	background-color:#0B4C68  ;
+	background-color:white  ;
 
 
 }
@@ -63,107 +92,217 @@ ul li:hover ul li {
 
 header {
 	width:1200px;
-	height:360px;
-	text-align:center;
-	background-color:#58A1C4;
-	padding-top:40px;
-}
-.iconart {opacity:.99999;shadow
+	height:450px;
+	padding-top:80px;
+	background-image: url('../images/afm_tributes.jpg');
+	background-size:100%;
+	background-position:center;
 
+}
+
+.headertext {width:300px;
+	text-align:center;
+	margin-left:90px;
+
+}
+
+.results {width:320px;
+	height:500px;
+	display:block;
+	margin-top:130px;
+}
+
+.results .active {display:none;
+
+}
+
+#title {font-family:'Teko', sans-serif;
+	font-weight:300;
+	font-size: 32px;
+	text-transform: uppercase;
+	width:300px;
+	color:black;
+	letter-spacing:1.6px;
+	line-height:36px;
+	text-align:left;
+}
+
+.results p {font-family:'Raleway', sans-serif;margin-left:2px;
+	padding-left:14px;
+	margin-top:20px;
+	font-weight:500;
+	font-size: 16px;
+	width:300px;
+	color:black;
+	letter-spacing:0px;
+	line-height:25px;
+	text-align:left;
+	
+    border-left: thick solid #96A9C4;
+}
+
+
+h2 {font-family:'Teko', sans-serif;
+	font-weight:100;
+	font-size: 20px;
+	padding-top:30px;
+	text-transform: uppercase;
+	width:590px;
+	color:#5986B6;
+	letter-spacing:30px;
+	line-height:45px;
+	text-align:center;
+	
+
+
+}
+span {font-size:30px;
+	color:white;
+	letter-spacing:25px;
+	text-align:center;
+}
+
+.span2 {						/*recipients*/
+	color:white;
+	font-size: 25px;
+	letter-spacing:33px;
+	text-align:center;
+}
+
+.span3 {						/*stars*/
+	color:white;
+	margin-bottom:13px;
+	font-size: 14px;
+	letter-spacing:10px;
+	vertical-align: middle;
+	opacity:.6;
 
 
 }
 p {font-family:'Raleway', sans-serif;
-	font-weight:thin;
-	padding-top:30px;
-	padding-left:00px;
-	font-size: 18px;
-	width:850px;
+	margin-top:36px; 
+	margin-left:40px;
+	font-weight:300;
+	font-size: 12.5px;
+	width:540px;
 	color:white;
-	letter-spacing:1px;
-	line-height:29px;
-	opacity:.5;
+	letter-spacing:.7px;
+	line-height:23px;
+	opacity:.8;
+	text-align:left;
+	
 }
 
-.biography {
-	width:1200px; height:350px;
-	border-top: .5px dotted black;
-background-image: url(../images/bio1.jpg);
-background-repeat:no-repeat;
-}
 
-h2 {font-family: 'Teko', sans-serif;
-font-weight:100;
-font-size:24px;
-letter-spacing:4px;
-line-height:25px;
-color:#214E5D;
-padding-left:420px;
-padding-top:104px;
-
-
-}
-.biography p {font-family:'Open+Sans', sans-serif;
-	font-weight:100;
-	padding-top:10px;
-	padding-left:295px;
-	font-size: 14px;
-	width:650px;
-	color:black;
-	letter-spacing:0px;
-	line-height:18px
-
-}
-
-.biography1 {
-	width:1200px; height:350px;
-	border-top: .5px dotted black;
-	background-image: url(../images/bio2.jpg);
+.description {width:480px;height:720px;
+	background-color:#7193B4  ;
+	background-image: url('../images/describe5.gif');
+	background-size:100%;
 	background-repeat:no-repeat;
+	float:right;
 }
-.biography1 p {font-family:'Open+Sans', sans-serif;
+
+.biopic {width:240px;height:240px;
+ 	opacity:.4;
+}
+
+a:hover .biopic {background-color:white;
+ 	opacity:.999;
+ 	
+  transform: scale(0.96);
+
+}
+
+.airman1 {width:240px;
+	height:240px;
+	float:left;
+	background-color:#102A43;
+
+}
+.airman2 {width:240px;
+	height:240px;
+	float:left;
+	background-color:#102A43;
+
+
+}
+
+.airman3 {width:240px;
+	height:240px;
+	float:left;
+	background-color:#102A43;
+	
+}
+
+.airman4 {width:240px;
+	height:240px;
+	float:left;
+	background-color:#102A43;
+	
+}
+
+.airman5 {width:240px;
+	height:240px;
+	float:left;
+	background-color:#102A43;
+	
+}
+
+.airman6 {width:240px;
+	height:240px;
+	float:left;
+	background-color:#102A43;
+	
+}
+
+.airman7 {width:240px;
+	height:240px;
+	float:left;
+	background-color:#102A43;
+	
+}
+
+.airman8 {width:240px;
+	height:240px;
+	float:left;
+	background-color:#102A43;
+	
+}
+
+.airman9 {width:240px;
+	height:240px;
+	float:left;
+	background-color:#102A43;
+	
+}
+h6 {font-size:9px;
+	font-family:'Open+Sans', sans-serif;
 	font-weight:100;
-	padding-top:10px;
-	padding-right:360px;
-	font-size: 14px;
-	width:650px;
-	color:black;
-	letter-spacing:0px;
-	line-height:18px
+	padding-top:250px;
+	text-transform: uppercase;
+	width:1200px;
+	color:white;
+	letter-spacing:2px;
+	line-height:26px;
+	opacity:.3;
+	}
 
 
+
+
+footer {height:300px;background-image: url('../images/round4.gif');
+	background-repeat:no-repeat;
+	background-size:10%;
+	background-position:center;
+	opacity: .9;
+	clear:both;
+	max-width:1200px;
+	background-color:#192E4B  ;
+	text-align:center;
 
 
 
 }
-
-
-
-.biography2 {
-	width:1200px; height:400px;
-	
-	border-top: .5px dotted black;
-}
-
-.biography3 {
-	width:1200px; height:400px;
-	
-	border-top: .5px dotted black;
-}
-
-.biography4 {
-	width:1200px; height:400px;
-	
-	border-top: .5px dotted black;
-}
-
-
-
-
-
-
-
-
 
 
 
